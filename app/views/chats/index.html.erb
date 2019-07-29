@@ -34,7 +34,7 @@
               </div>
             <% end %>
             <div class="field position-relative">
-              <%= form.text_field :message, id: :message, class: "form-control", required: true, disabled: true %>
+              <%= form.text_field :message, id: :message, class: "form-control", required: true, disabled: true, autocomplete: "off" %>
               <%= form.hidden_field :username, id: :username %>
             </div>
           <% end %>
